@@ -1,0 +1,125 @@
+@charset "utf-8";
+
+/* FONTES */
+@import url(fonts.css);
+
+root {
+    display: block;
+}
+
+/* Resetar estilos */
+* { padding: 0; margin: 0;}
+
+/* Definições gerais */
+.fl { float: left;}
+.fr { float: right;}
+.bl { display: block;}
+.cls { clear: both;}
+.center{text-align: center;}
+img {border: none;}
+ul{list-style-type:none;}
+img {border: none;}
+p { font-family: 'square721_cn_btroman',Sans-Serif; text-align: justify; font-size: 13px; font-weight: normal; margin-bottom: 10px;}
+h1, h2, h3, h4, h5, h6, ul, li, em, pre, code{
+      padding: 0; margin: 0; line-height: 1.5em; font-size: 100%; font-weight: normal; font-style: normal; font-family:'square721_cn_btroman',Sans-Serif;
+}
+a {text-decoration: none; color: #7b7b7b;}
+a:hover { text-decoration: underline; }
+
+html,
+body { height: 100%; background: #fff; }
+
+/* ESTRUTURA */
+#wrap {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto -127px;
+}
+#push,
+#footer {height: 127px;}
+#footer {background-color: #f5f5f5;}
+
+.container { width: 763px; margin: 0 auto;}
+.container .credit {margin: 20px 0;}
+
+/* HEADER */
+.bgtopo{ background: #fff url(../imagens/bgtopo.jpg) top center repeat-x; height: 100px}
+.bgtopo2{ background: #fff url(../imagens/bgtopo2.jpg) top center repeat-x; height: 138px}
+.logo {width: 308px; }
+.logo2 {width: 308px; height: 96px; box-shadow: #cecece 0px 0px 5px 0px;}
+.flags {height: 57px; width: 455px; text-align: right;}
+#menu {width: 320px; float: left; padding-top: 5px; }
+#menu2 {width: 590px; float: left;}
+#busca {width: 120px; line-height: 35px;}
+
+/* MENU */
+.nav, .nav * {margin: 0;padding: 0;}
+
+.nav {
+	width:100%;
+	float: left;
+    font-size: 11pt;
+}
+.nav li {float:left; list-style:none; font-family:'square721_cn_btroman',Sans-Serif;}
+.nav li a {
+	display:block;
+	color:#000;
+	font-weight: normal;
+	text-decoration: none;
+	margin-right: 2px;
+	padding: 0.15em 0.25em 0.25em 0.75em;
+	-webkit-transition: color .3s linear;
+	-o-transition: color .3s linear;
+	-moz-transition: color .3s linear;
+}
+.nav li a:visited { color:#fff; }
+.nav li a:hover { color: #044089; text-decoration: none; }
+
+#menu2 { width: 590px; height: 35px; padding-top: 5px; padding-left: 10px; margin-bottom: 10px; color: #ccc; z-index: 1000; text-align: center; }
+#menu2 ul {list-style: none; margin: 0 ; padding: 0; line-height: 30px; z-index:99999; font: 'square721_cn_btroman', Arial, sans-serif;}
+
+#menu2 .nav li a { color: #fff};
+
+/* CONTEÚDO */
+.content {padding: 10px;}
+.content p {margin-top: 20px;}
+.sombra {box-shadow: #cecece 0px 0px 5px 0px;}
+.textpadding {padding: 40px; }
+.textpadding p{ color: #454545;}
+.title {color: #354c9c; font-weight: bold; font-family: 'Cabin', sans-serif;}
+h3 {color: #292929; font-size: 16px;}
+
+.bgcolunas {background: #fff url(../imagens/fundo_colunas.jpg) top center no-repeat; height: 346px;}
+.col1 {width: 30%;}
+.col2 {width: 31%;}
+.col3 {width: 31%;}
+.textcolunas {padding: 10px;  font-size: 14px; font-weight: normal; color: #636669;}
+
+/* FORMULÀRIO */
+
+fieldset {
+	background-color: #eaf8fc;
+	border: 1px #e6e6e6 solid;
+	padding: 25px; width: 80%;
+	font-family: 'Cabin', sans-serif;
+	font-size: 12px;
+	margin-bottom: 5px;
+}
+form {text-align: left;}
+fieldset h3 {text-align: left; margin-bottom: 10px; font-family: 'Cabin', sans-serif; font-size: 12px; font-weight: bold;}
+form label { display: block; width: 11.5em; margin-bottom: 1.7em; text-align: right;}
+form input { display: block; margin-bottom: 1em; border: 1px solid #ccc; height: 1.5em;}
+form textarea {display: block; margin-bottom: 1em; border: 1px solid #ccc;}
+form input#enviar {clear: both; border: 1px solid #ccc; padding: 0.3em;}
+form select {display: block; margin-bottom: 1em; border: 1px solid #ccc; height: 1.5em; text-align: left; }
+.formspc {margin-left: 5px;}
+
+
+/* FOOTER */
+.bgfooter{ background: #fff url(../imagens/bgrodape.jpg) top center repeat-x; height: 100px;}
+.controdape {width: 600px; padding-top: 45px;}
+.logorodape {width: 160px;}
+.colspc { margin-left: 15%; float: right;}
+.colspc2 { margin-left: 10%; float: right;}
+.credito {text-align: center; color: #fff; font-family:'square721_cn_btroman',Sans-Serif; padding-top: 15px; width: 100%;}
