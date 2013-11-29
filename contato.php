@@ -13,9 +13,9 @@
 						<fieldset>
 							<form action="">
 								<div class="fl">
-									<label for="nome">Nome</label>
-									<label for="">Empresa</label>
-									<label for="">Email</label>
+									<label for="nome">Nome do Contato</label>
+									<label for="">Nome da Empresa</label>
+									<label for="">Email Contato</label>
 									<label for="">Cidade</label>
 									<label for="">Estado</label>
 									<label for="">Telefone Comercial</label>
@@ -38,6 +38,13 @@
 
 							</form>
 						</fieldset>
+				</div>
+				<div class="content cls textpadding">
+					<p>
+					Tel.: 21 2512-1879 <br>
+					Obrigado por entrar em contato com a Kabel Weg Engenharia (KWE) <br>
+					Sua informação será sempre guardada com privacidade e nunca compartilhada com terceiros.
+					</p>
 				</div>
 			</div>
 		</div>

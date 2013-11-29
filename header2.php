@@ -46,7 +46,7 @@
 				<nav class="nav">
 					<ul><li><a href="index.php">Home</a></li>
 						<li><a href="empresa.php" title="">Empresa</a></li>
-						<li><a href="#" title="">Área de Atuação</a></li>
+						<li><a href="atuacao.php" title="">Área de Atuação</a></li>
 						<li><a href="clientes.php" title="">Clientes</a></li>
 						<li><a href="contato.php" title="">Contato</a></li>
 						<li><a href="orcamento.php" title="">Orçamento</a></li>
@@ -54,7 +54,7 @@
 				</nav>
 				</div>
 
-				<div id="busca" class="fr"> <input type="text" name="" value="" placeholder=""  size="15"> </div>
+				<div id="busca" class="fr"> <input type="text" name="" class="search" value="" placeholder=""  size="15"> </div>
 			</div>
 
 		</div>

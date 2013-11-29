@@ -5,7 +5,6 @@
 			</div>
 
 		</div>
-		<br>
 		<div class="bgcolunas">
 			<div class="container">
 				<div class="col1 fl textcolunas">

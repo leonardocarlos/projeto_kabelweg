@@ -53,7 +53,7 @@
 				</nav>
 			</div>
 
-			<div id="busca" class="fr"> <input type="text" name="" value="" placeholder=""  size="10"> </div>
+			<div id="busca" class="fr"> <input type="text" name="" class="search" value="" placeholder="" > </div>
 		</div>
 
 </div>
