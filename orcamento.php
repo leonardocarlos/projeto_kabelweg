@@ -8,7 +8,8 @@
 				<div class="content cls">
 					<br>
 					<p>
-					Utilize essa secao para solicitar um orcamento. <br>
+					Por favor utilize essa seção para solicitar um orçamento do seu projeto. <br>
+					Ou se preferir, envio-nos um email com as informações detalhadas sobre o projeto ou entre em contato conosco pelo o telefone abaixo. <br>
 					Os campos com * sao obrigatorios.
 					</p>
 						<form action="">
@@ -21,7 +22,7 @@
 									<label for="">Email Responsável*</label>
 									<label for="">Telefone Comercial</label>
 									<label for="">Telefone Nextel + ID</label>
-									<label for="">ID</label>
+									<label for="">ID Rádio</label>
 									<label for="">WebSite</label>
 								</div>
 								<div class="fr formspc">
@@ -51,7 +52,7 @@
 								</div>
 							</fieldset>
 							<fieldset>
-								<h3>Dados sobre o serviço</h3>
+								<h3>Dados sobre o(s) serviço(s) à ser(em) prestados(s)</h3>
 								<div class="fl">
 									<label for="">Selecione tipo de serviço</label>
 									<label for="">Especialidade</label>
@@ -59,7 +60,15 @@
 								<div class="fr formspc">
 									<select name="tipo_serviço" id="">
 										<option value=""></option>
-										<option value="">--------------</option>
+										<option value="">Avalição de eficiência energética</option>
+										<option value="">Consultorias</option>
+										<option value="">Instalações</option>
+										<option value="">Laudos de engenharia</option>
+										<option value="">Medições Elétricas</option>
+										<option value="">Montagens</option>
+										<option value="">Projetos de engenharia</option>
+										<option value="">Projetos e Montagens de Lojas e Quiosques</option>
+										<option value="">Outros</option>
 									</select>
 									<select name="tipo_serviço" id="">
 										<option value=""></option>
@@ -74,10 +83,24 @@
 								</div>
 								<div class="fr formspc">
 									<textarea name="mensagem" id="" cols="45" rows="5"></textarea>
-									<a href="#" class="fr"><img src="imagens/btenviar.png" height="29" width="88" alt=""></a>
 								</div>
 							</fieldset>
+							<fieldset>
+								<h3>Só mais pergunta, por favor...</h3>
+								<div class="fl">
+									<label for="">Como você encontrou a Kabel Weg Engenharia (KWE)?</label>
+								</div>
+
+								<a href="#" class="fr"><img src="imagens/btenviar.png" height="29" width="88" alt=""></a>
+							</fieldset>
 						</form>
+						<br>
+						<div class="fl">
+						<p>
+							Kabel Weg Engenharia (KWE) <br>
+							Te.: +55 (21) 2512-1879
+						</p>
+						</div>
 				</div>
 			</div>
 		</div>
